@@ -41,12 +41,19 @@ To run this project, you will need to set up both the Rasa backend and the front
 1. Open your browser and navigate to the URL served by your web server (e.g., `http://localhost:5000`).
 2. Interact with the chatbot through the web interface.
 
-### Screenshots
-
-![Chatbot Screenshot](demo/demo1.png)
-![Chatbot Screenshot2](demo/demo2.png)
-![Chatbot Screenshot3](demo/demo3.png)
-
+<table>
+  <tr>
+    <td>
+      <img src="demo/demo1.png" alt="Chatbot Screenshot 1" width="300"/>
+    </td>
+    <td>
+      <img src="demo/demo2.png" alt="Chatbot Screenshot 2" width="300"/>
+    </td>
+    <td>
+      <img src="demo/demo3.png" alt="Chatbot Screenshot 3" width="300"/>
+    </td>
+  </tr>
+</table>
 ## Features
 
 - Real-time interaction with the chatbot through the web interface.
