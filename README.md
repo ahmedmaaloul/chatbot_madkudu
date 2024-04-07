@@ -54,6 +54,7 @@ To run this project, you will need to set up both the Rasa backend and the front
     </td>
   </tr>
 </table>
+
 ## Features
 
 - Real-time interaction with the chatbot through the web interface.
