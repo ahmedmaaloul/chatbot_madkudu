@@ -43,9 +43,9 @@ To run this project, you will need to set up both the Rasa backend and the front
 
 ### Screenshots
 
-![Chatbot Screenshot](demo\demo1.png)
-![Chatbot Screenshot2](demo\demo2.png)
-![Chatbot Screenshot3](demo\demo3.png)
+![Chatbot Screenshot](demo/demo1.png)
+![Chatbot Screenshot2](demo/demo2.png)
+![Chatbot Screenshot3](demo/demo3.png)
 
 ## Features
 
