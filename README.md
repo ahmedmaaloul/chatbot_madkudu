@@ -38,7 +38,7 @@ To run this project, you will need to set up both the Rasa backend and the front
 
 ## Usage
 
-1. Open your browser and navigate to the URL served by your web server (e.g., `http://localhost:5000`).
+1. Open your browser and navigate to the URL served by your web server (e.g., `http://127.0.0.1:5006`).
 2. Interact with the chatbot through the web interface.
 
 <table>
