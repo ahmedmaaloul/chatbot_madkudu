@@ -1,0 +1,117 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+- intent: get_started
+  examples: |
+    - How do I get started?
+    - What are the first steps?
+- intent: what_is_madkudu
+  examples: |
+    - What is MadKudu?
+    - Tell me about MadKudu.
+- intent: how_marketing_uses_madkudu
+  examples: |
+    - How Marketing Uses MadKudu?
+- intent: core_concepts
+    - What are the core concepts?
+    - Tell me about the core concepts.
+- intent: ask_about_scores
+  examples: |
+    - What are the different scores?
+    - Can you explain the scoring system?
+- intent: ask_about_enrichment
+  examples: |
+    - What is enrichment in MadKudu?
+    - Can you explain enrichment?
+- intent: ask_about_models
+  examples: |
+    - What models does MadKudu offer?
+    - Can you tell me about the different models?
+- intent: ask_about_scoring_types
+  examples: |
+    - What's the difference between batch and real-time scoring?
+    - Can you explain batch vs real-time scoring in integrations?
+- intent: ask_about_glossary
+  examples: |
+    - What's in the MadKudu glossary?
+    - Tell me about the terms used by MadKudu.
+- intent: ask_about_customer_fit
+  examples: |
+    - What does the Customer Fit model show?
+    - Explain Customer Fit and best leads identification.
+- intent: ask_detailed_about_customer_fit_model
+  examples: |
+    - Can you explain the Customer Fit model in detail?
+    - I want more information about the Customer Fit model.
+- intent: ask_about_crm_data_usage
+  examples: |
+    - How does MadKudu use CRM data for scoring?
+    - Tell me about CRM data integration in MadKudu scoring.
+- intent: ask_about_likelihood_to_buy
+  examples: |
+    - What does Likelihood to Buy mean?
+    - How do you determine the best leads?
+- intent: ask_about_likelihood_to_buy_details
+  examples: |
+    - Tell me about the Likelihood to Buy model.
+    - How does MadKudu determine a lead's likelihood to buy?
+- intent: ask_about_behavioral_events
+  examples: |
+    - What type of events can be used in a behavioral model?
+    - Tell me about events that indicate buying likelihood.
+- intent: ask_how_likelihood_to_buy_built
+  examples: |
+    - How is the Likelihood to Buy model constructed?
+    - What's the process for building the Likelihood to Buy model?
+- intent: ask_about_lead_grade
+  examples: |
+    - What is Lead Grade?
+    - How is Lead Grade determined?
+    - Explain the concept of Lead Grade in MadKudu.
+- intent: ask_about_account_fit_scoring
+  examples: |
+    - Tell me about Account Fit Scoring with MadKudu.
+- intent: ask_about_account_likelihood_to_buy
+  examples: |
+    - What is Account Likelihood to Buy?
+- intent: ask_about_copilot_features
+  examples: |
+    - What features does MadKudu Copilot offer?
+- intent: ask_about_ops_features
+  examples: |
+    - Tell me about MadKudu for Ops.
+- intent: ask_about_how_tos
+  examples: |
+    - Where can I find How To's for using MadKudu?
+- intent: ask_about_video_tutorials
+  examples: |
+    - How can I access video tutorials and webinar replays?
+- intent: ask_about_integrations
+  examples: |
+    - What integrations does MadKudu support?
+- intent: ask_about_security_privacy
+  examples: |
+    - How does MadKudu handle GDPR and SSO?
+- intent: ask_for_help
+  examples: |
+    - Where can I get more support with MadKudu?
+- intent: integrate_intent_data
+  examples: |
+    - How can I integrate intent data into MadKudu?
+- intent: get_madkudu_support
+  examples: |
+    - How do I get help from MadKudu support?
+- intent: thank_you
+  examples: |
+    - thank you
+    - thanks
+    - I appreciate it
+    - cheers
+- intent: repeat
+  examples: |
+    - Can you repeat that?
+    - Could you say that again?
+    - I didn't catch that, can you repeat?
+    - Can you tell me again?

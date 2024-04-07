@@ -1,0 +1,102 @@
+intents:
+  - greet
+  - get_started
+  - core_concepts
+  - customer_fit_model
+  - what_is_madkudu
+  - how_marketing_uses_madkudu
+  - ask_about_scores
+  - ask_about_enrichment
+  - ask_about_models
+  - ask_about_scoring_types
+  - ask_about_glossary
+  - ask_about_customer_fit
+  - ask_detailed_about_customer_fit_model
+  - ask_about_crm_data_usage
+  - ask_about_likelihood_to_buy
+  - ask_about_likelihood_to_buy_details
+  - ask_about_behavioral_events
+  - ask_how_likelihood_to_buy_built
+  - ask_about_lead_grade
+  - ask_about_account_fit_scoring
+  - ask_about_account_likelihood_to_buy
+  - ask_about_copilot_features
+  - ask_about_ops_features
+  - ask_about_how_tos
+  - ask_about_video_tutorials
+  - ask_about_integrations
+  - ask_about_security_privacy
+  - ask_for_help
+  - integrate_intent_data
+  - get_madkudu_support
+  - thank_you
+  - repeat
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_get_started:
+    - text: "You've just signed up, what's next?"
+  utter_what_is_madkudu:
+    - text: "Madkudu's platform empowers sales teams with AI-driven account and lead scoring, personalized playbooks, and contextual insights. This enables sellers to focus on the most promising opportunities, use effective strategies, and engage prospects more effectively for increased sales success. Learn More here: https://support.madkudu.com/hc/en-us/sections/360006903352-What-is-Madkudu"
+  utter_marketing_uses:
+    - text: "Marketers use MadKudu to assess the quality of inbound leads by channel and campaign, enabling them to optimize marketing spend, nurture campaigns for valuable leads, and make accurate decisions based on response quality metrics. Learn More here : https://support.madkudu.com/hc/en-us/articles/360040923172-How-Marketing-Uses-MadKudu"
+  core_concepts:
+    - text: "Core concepts of MadKudu include understanding the various scores assigned to leads, such as the Customer Fit score indicating the quality of leads, and the Enrichment process which enhances lead data. Different models within MadKudu offer diverse approaches to analyzing and predicting lead behavior. Integrations with MadKudu allow for both batch and real-time scoring, catering to different needs and preferences of users. Learn More here : https://support.madkudu.com/hc/en-us/sections/4403639636493-Core-Concepts"
+  utter_explain_enrichment:
+    - text: "Enrichment involves augmenting your data with demographic, firmographic, and technographic insights from both first and third-party sources, enhancing lead understanding and segmentation. For more details, visit [MadKudu Enrichment](https://support.madkudu.com/hc/en-us/articles/4403703261197-Enrichment)."
+  utter_explain_scoring_types:
+    - text: "MadKudu offers two scoring methods: Real-Time, which scores records within 5-15 minutes of creation, and Batch, updating scores every 4-12 hours. The choice between them depends on the data's availability and the need for immediacy. For more in-depth information, visit [Batch versus Real-time scoring in your integrations](https://support.madkudu.com/hc/en-us/articles/360036535192-Batch-versus-Real-time-scoring-in-your-integrations)."
+  utter_explain_glossary:
+    - text: "The MadKudu Glossary covers definitions of key terms like Account Fit, Behavioral Data, Customer Fit, and more, enhancing your understanding of our platform. For a full list of terms, visit [MadKudu Glossary](https://support.madkudu.com/hc/en-us/articles/4403569820045-MadKudu-Glossary)."
+  utter_explain_customer_fit:
+    - text: "The Customer Fit model helps identify leads that closely match your ideal customer profile by analyzing demographic and firmographic data. It's pivotal for understanding which leads are likely to be the best fit for your product or service. For more detail, visit [Customer Fit: What do your best leads look like?](https://support.madkudu.com/hc/en-us/sections/5010075769229-Customer-Fit-What-do-your-best-leads-look-like)."
+  utter_explain_detailed_customer_fit_model:
+    - text: "The Customer Fit model assesses leads based on firmographic, demographic, and technographic data, labeling them from 'Very Good' to 'Low' fit. It enables efficient lead engagement and marketing strategies. For more details, visit [Customer Fit model](https://support.madkudu.com/hc/en-us/articles/360036909771-Customer-Fit-model)."
+  utter_explain_crm_data_usage:
+    - text: "MadKudu leverages CRM data, including firmographic, demographic, and technographic information, for real-time and batch scoring to assess lead and account fit. This helps in prioritizing leads more effectively. For detailed insights on this process, visit [Customer Fit: How MadKudu uses CRM data in the scoring](https://support.madkudu.com/hc/en-us/articles/4404482646541-Customer-Fit-How-MadKudu-uses-CRM-data-in-the-scoring)."
+  utter_explain_likelihood_to_buy:
+    - text: "The Likelihood to Buy model predicts lead engagement levels based on their actions, like website visits or product usage, to identify those most ready to make a purchase. For more on behavioral models and event types used, visit [Likelihood To Buy: What do your best leads do?](https://support.madkudu.com/hc/en-us/sections/5011310626573-Likelihood-To-Buy-What-do-your-best-leads-do)."
+  utter_explain_likelihood_to_buy_details:
+    - text: "MadKudu's Likelihood to Buy model predicts a lead's conversion potential by analyzing behavior, like app usage or marketing interaction, labeling them from 'Very High' to 'Low.' For more, visit [Likelihood to Buy](https://support.madkudu.com/hc/en-us/articles/360036905791-Likelihood-to-buy)."
+  utter_explain_behavioral_events:
+    - text: "Behavioral models consider various user actions, like app usage, webpage visits, or marketing engagement, to assess lead engagement levels. For a detailed list of events, visit [What type of events can be used in a behavioral model?](https://support.madkudu.com/hc/en-us/articles/360053545671-What-type-of-events-can-be-used-in-a-behavioral-model)."
+  utter_explain_likelihood_to_buy_building_process:
+    - text: "Building the Likelihood to Buy model involves connecting your systems, mapping behavioral data, model construction in Data Science Studio, and syncing scores to your CRM. For a detailed walkthrough, visit [How is the Likelihood to Buy model built?](https://support.madkudu.com/hc/en-us/articles/4406963437837-How-is-the-Likelihood-to-Buy-model-built)."
+  utter_explain_lead_grade:
+    - text: "Lead Grade combines Customer Fit and Likelihood to Buy into a single metric, classifying leads from A (most qualified and engaged) to E. It helps in efficiently prioritizing leads for sales engagement. For more on how Lead Grades are calculated and used, visit [Lead Grade](https://support.madkudu.com/hc/en-us/articles/4403971397005-Lead-Grade)."
+  utter_account_fit_scoring_info:
+    - text: "For detailed information on Account Fit Scoring with MadKudu, please visit [here](https://support.madkudu.com/hc/en-us/articles/360043783332-Account-Fit-Scoring-with-MadKudu)."
+  utter_account_likelihood_to_buy_info:
+    - text: "Learn more about Account Likelihood to Buy by visiting [here](https://support.madkudu.com/hc/en-us/articles/4403571490061-Account-Likelihood-to-Buy)."
+  utter_about_copilot_features:
+    - text: "Explore MadKudu Copilot features [here](https://support.madkudu.com/hc/en-us/categories/4842884927245-MadKudu-Copilot)."
+  utter_about_ops_features:
+    - text: "Learn about MadKudu for Ops [here](https://support.madkudu.com/hc/en-us/categories/4403776749453-MadKudu-for-Ops)."
+  utter_about_how_tos:
+    - text: "Find How To's for the MadKudu platform [here](https://support.madkudu.com/hc/en-us/categories/360002380472-How-To-s)."
+  utter_about_video_tutorials:
+    - text: "Access video tutorials and webinar replays [here](https://support.madkudu.com/hc/en-us/categories/360005945731-Video-Tutorials-Webinar-Replays)."
+  utter_about_integrations:
+    - text: "Discover MadKudu integrations [here](https://support.madkudu.com/hc/en-us/categories/4404137345933-Integrations)."
+  utter_about_security_privacy:
+    - text: "Read about MadKudu's approach to Security & Privacy [here](https://support.madkudu.com/hc/en-us/categories/360005945731-Video-Tutorials-Webinar-Replays)."
+  utter_for_help:
+    - text: "For more support, visit MadKudu's help center [here](https://support.madkudu.com/hc/en-us/categories/360002419272-Still-need-help)."
+  utter_integrate_intent_data:
+    - text: "To integrate intent data into MadKudu, you can find the guidelines [here](https://support.madkudu.com/hc/en-us/articles/4417203565325-How-to-integrate-intent-data-to-MadKudu)."
+  utter_get_madkudu_support:
+    - text: "For assistance from MadKudu support, visit [this link](https://support.madkudu.com/hc/en-us/articles/360037475992-Get-help-from-MadKudu-support) for more information."
+  utter_explain_scores:
+    - text: "MadKudu provides scores to categorize leads and accounts based on their potential value and engagement. Scores are segmented into categories like 'Very Good', 'Good', 'Medium', and 'Low' for Customer Fit, and similar for Likelihood to Buy and Lead Grade."
+  utter_more_info_scores:
+    - text: "For a detailed explanation of each score and what they signify, please check [here](https://support.madkudu.com/hc/en-us/articles/360036535612-What-are-the-different-scores)."
+  utter_explain_models:
+    - text: "MadKudu provides three main models: Customer Fit (demographic insights), Likelihood to Buy (behavioral signals), and the Lead Grade (a combination of the first two). These models help prioritize leads and accounts efficiently."
+  utter_core_concepts:
+    - text: "Learn about the Core Concepts here: https://support.madkudu.com/hc/en-us/sections/4403639636493-Core-Concepts"
+  utter_customer_fit_model:
+    - text: "Find out more about the Customer Fit model here: https://support.madkudu.com/hc/en-us/articles/360036909771-Customer-Fit-model"
+  utter_thank_you:
+    - text: "You're welcome! If you have any more questions, feel free to ask."
+  utter_repeat:
+    - text: "Sure, I can repeat that. What would you like me to go over again?"

@@ -1,0 +1,112 @@
+stories:
+- story: simple path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_started
+  - action: utter_get_started
+- story: what is MadKudu
+  steps:
+  - intent: what_is_madkudu
+  - action: utter_what_is_madkudu
+- story: how marketing uses MadKudu
+  steps:
+  - intent: how_marketing_uses_madkudu
+  - action: utter_marketing_uses
+- story: core_concepts
+  steps:
+  - intent: core_concepts
+  - action: utter_core_concepts
+- story: understanding different scores
+  steps:
+  - intent: ask_about_scores
+  - action: utter_explain_scores
+  - action: utter_more_info_scores
+- story: user asks about enrichment
+  steps:
+  - intent: ask_about_enrichment
+  - action: utter_explain_enrichment
+- story: user inquires about MadKudu models
+  steps:
+  - intent: ask_about_models
+  - action: utter_explain_models
+- story: batch versus real-time scoring explanation
+  steps:
+  - intent: ask_about_scoring_types
+  - action: utter_explain_scoring_types
+- story: user asks about MadKudu Glossary
+  steps:
+  - intent: ask_about_glossary
+  - action: utter_explain_glossary
+- story: user asks about Customer Fit model
+  steps:
+  - intent: ask_about_customer_fit
+  - action: utter_explain_customer_fit
+- story: user inquires detailed Customer Fit model
+  steps:
+  - intent: ask_detailed_about_customer_fit_model
+  - action: utter_explain_detailed_customer_fit_model
+- story: explaining CRM data usage in scoring
+  steps:
+  - intent: ask_about_crm_data_usage
+  - action: utter_explain_crm_data_usage
+- story: user asks about Likelihood To Buy
+  steps:
+  - intent: ask_about_likelihood_to_buy
+  - action: utter_explain_likelihood_to_buy
+- story: user inquires about Likelihood to Buy
+  steps:
+  - intent: ask_about_likelihood_to_buy_details
+  - action: utter_explain_likelihood_to_buy_details
+- story: user asks about behavioral model events
+  steps:
+  - intent: ask_about_behavioral_events
+  - action: utter_explain_behavioral_events
+- story: user inquires about building the Likelihood to Buy model
+  steps:
+  - intent: ask_how_likelihood_to_buy_built
+  - action: utter_explain_likelihood_to_buy_building_process
+- story: user inquires about Lead Grade
+  steps:
+  - intent: ask_about_lead_grade
+  - action: utter_explain_lead_grade
+- story: user asks about Account Fit Scoring
+  steps:
+  - intent: ask_about_account_fit_scoring
+  - action: utter_account_fit_scoring_info
+- story: user inquires Account Likelihood to Buy
+  steps:
+  - intent: ask_about_account_likelihood_to_buy
+  - action: utter_account_likelihood_to_buy_info
+- story: user asks about various MadKudu resources
+  steps:
+  - intent: ask_about_copilot_features
+  - action: utter_about_copilot_features
+  - intent: ask_about_ops_features
+  - action: utter_about_ops_features
+  - intent: ask_about_how_tos
+  - action: utter_about_how_tos
+  - intent: ask_about_video_tutorials
+  - action: utter_about_video_tutorials
+  - intent: ask_about_integrations
+  - action: utter_about_integrations
+  - intent: ask_about_security_privacy
+  - action: utter_about_security_privacy
+  - intent: ask_for_help
+  - action: utter_for_help
+- story: Integrating Intent Data into MadKudu
+  steps:
+  - intent: integrate_intent_data
+  - action: utter_integrate_intent_data
+- story: Getting Help from MadKudu Support
+  steps:
+  - intent: get_madkudu_support
+  - action: utter_get_madkudu_support
+- story: user says thank you
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+- story: user asks to repeat
+  steps:
+  - intent: repeat
+  - action: utter_repeat
